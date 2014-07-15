@@ -216,6 +216,8 @@ nav{
     clear:left;
     padding:$lhPx*.5 5%;
     padding:$lh*.5 5%;
+    margin-bottom:$lhPx;
+    margin-bottom:$lh;
     ul{
         width:100%;
         margin:0 auto;
@@ -299,7 +301,8 @@ nav{
     }
     .address{
         text-align:left;
-        width:32.33%;
+        width:27.33%;
+        margin-left:5%;
     }
     .schedule{
         width:39.33%;
