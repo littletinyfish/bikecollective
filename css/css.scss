@@ -585,20 +585,19 @@ nav{
         .address, .schedule{
             min-height:147px;
             min-height:14.7rem;
-            width:48%;
+            width:44.5%;
             padding-bottom:$lhPx/2;
             padding-bottom:$lh/2;
             margin-bottom:$lhPx/2;
             margin-bottom:$lh/2;
 	   }
 	   .address{
-            margin-right:4%;
+            margin-right:2.5%;
 	   }
         .schedule{
             border-left:1px solid $logoGreen;
-            padding-left:3%;
+            padding-left:2.5%;
             text-align:right;
-            margin:0;
 	   }
 	   .talk{
             clear:left;
@@ -677,97 +676,113 @@ nav{
 
 
 @media handheld, screen and (max-width: 500px) {
-	ul, li{
-	width:100%;
-	}
-	ol{
-	margin-left:0%;
-	padding-left:9%;
-	width:91%;
-	}
+    ul, li{
+        width:100%;
+    }
+    ol{
+        margin-left:0%;
+        padding-left:9%;
+        width:91%;
+    }
 	object, iframe, embed{
-	width:100%;	
+        width:100%;	
 	}
 	.container{
-	margin:21px 0;
-	margin:2.1rem 0;
+        margin:$lhPx 0;
+        margin:$lh 0;
 	}
-	.logo img{
-	width:100%;
+	.logo{
+        img{
+            width:100%;
+        }
 	}
-    .logo .contest{
-        width:auto;
+    .contact-info-container{
+        padding:0 5%;
+        .contact{
+            width:100%;
+            margin:0;
+            padding:$lhPx/2 0;
+            padding:$lh/2 0;
+            border:0;
+            min-height:0;
+            text-align:left;
+            ul{
+                padding-left:0;
+            }
+        }
+        .address, .schedule{
+            border-bottom:1px solid $logoGreen;
+            padding-bottom:5.25px;
+            padding-bottom:.525rem;
+            margin-bottom:5.25px;
+            margin-bottom:.525rem;
+        }
+	   .talk{
+           clear:left;
+           min-height:0;
+           width:100%;
+           border:0;
+           li{
+               float:left;
+               clear:left;
+               border:0;
+           }
+           li:last-child{
+               border:0;
+           }
+       }
     }
-	.contact{
-	width:100%;
-	padding:$lhPx/2 0;
-	padding:$lh/2 0;
-	border:0;
-	min-height:0;
-	text-align:left;
-	}
-	.contact ul{
-	padding-left:0;	
-	}
-	.address, .schedule{
-	border-bottom:1px solid $logoGreen;
-	padding-bottom:5.25px;
-	padding-bottom:.525rem;
-	margin-bottom:5.25px;
-	margin-bottom:.525rem;
-	}
-	.talk{
-	clear:left;
-	min-height:0;
-	width:100%;
-	border:0;
-	}
-	.talk li{
-	float:left;
-	clear:left;
-	border:0;
-	}
-	.talk li:last-child{
-	border:0;
-	}
 	nav{
-	width:100%;
-	padding:5%;
-	}
-	nav ul{
-	width:100%;
-	text-align:left;
-	}
-	nav li{
-	float:left;
-	clear:left;
-	border-right:0;
-	border-bottom:1px solid white;
-	width:100%;
-	margin:0;
-	padding:0;
-	}
+        width:100%;
+        padding:5%;
+        ul{
+            width:100%;
+            text-align:left;
+        }
+        li{
+            float:left;
+            clear:left;
+            border-right:0;
+            border-bottom:1px solid white;
+            width:100%;
+            margin:0;
+            padding:0;
+        }
+    }
 	.info img, .accompanying-image{
-	width:100%;
-	float:left;
-	margin-bottom:21px;
-	margin-bottom:2.1rem;
-	margin-left:0;
+        width:100%;
+        float:left;
+        margin-bottom:$lhPx;
+        margin-bottom:$lh;
+        margin-left:0;
 	}
-	.sponsors li{
-	padding:0;
-	margin:$lhPx/2;
-	margin:$lh/2;	
-	}
+    .footer{
+        .sponsors{
+            li{
+                padding:0;
+                margin:$lhPx/2;
+                margin:$lh/2;
+            }
+	   }
+        .bottom-nav{
+            font-size:$fontSizePx;
+            font-size:$fontSize;
+            line-height:$lhPx;
+            line-height:$lh;
+            li{
+                border:0;
+            }
+        }
+    }
 	/*-----FACEBOOK-----*/
 
 	/*-----TUMBLR-----*/
 	.tumblr_post img, .tumblr_photo_post img{
-	width:100%;
+        width:100%;
 	}
 	.tumblr_video{
-	width:100%;
-	float:right;
+        width:100%;
+        float:right;
 	}
     .sponsor img{
         width:auto;
