@@ -1,0 +1,774 @@
+/*BASE\
+font:2.1rem, 21px, 6.8372%; 
+line-height:$lh, $lhPx, 7%;
+*/
+
+$fontSizePx: 18px;
+$fontSize: 1.8rem;
+$lhPx: 27px;
+$lh: 2.7rem;
+
+$georgia: georgia, palatino, "palatino linotype", serif;
+$helvetica: helvetica, arial, tahoma, sans-serif;
+
+$logoOlive: #535629;
+$lightYellow: #f1eed7;
+$logoGreen: #466e3c;
+$logoYellow: #9c8c3d;
+$white: #fff;
+$gray: #d3d3d3;
+$black: #888;
+
+*{
+    box-sizing:border-box;
+}
+html{
+    font-size:62.5%;
+}
+body{
+    width:100%;
+    margin:0;
+    padding:0;
+    font-size:$fontSizePx;
+    font-size:$fontSize;
+    line-height:$lhPx;
+    line-height:$lh;
+    color:#121212;
+    font-family:$georgia;
+    background-color: $logoOlive; /*Olive*/
+    //background-image:url(images/bg.gif);
+    background-attachment:fixed;
+}
+div{
+	
+}
+span{
+	
+}
+section{
+    
+}
+h1, h2, h3, h4, h5, h6, h7{
+    width:auto;
+    float:none;
+    clear:left;
+    margin:0 0 $lhPx/2;
+    margin:0 0 $lh/2;
+    padding:0 0 $lhPx/2;
+    padding:0 0 $lh/2;
+}
+h1{
+    font-size:$fontSizePx*1.75;
+    font-size:$fontSize*1.75;
+    line-height:$lhPx*1.75;
+    line-height:$lh*1.75;
+    //border-bottom:$lhPx/2 solid $logoYellow;
+}
+h2{
+    font-size:$fontSizePx*1.25;
+    font-size:$fontSize*1.25;
+    line-height:$lhPx*1.25;
+    line-height:$lh*1.25;
+}
+h3{
+    font-size:$fontSizePx;
+    font-size:$fontSize;
+    line-height:$lhPx;
+    line-height:$lh;
+}
+h4, h5{
+    font-size:$fontSizePx*.75;
+    font-size:$fontSize*.75;
+    line-height:$lhPx*.75;
+    line-height:$lh*.75;
+}
+h6{
+    font-size:$fontSizePx*.5;
+    font-size:$fontSize*.5;
+    line-height:$lhPx*.5;
+    line-height:$lh*.5;
+}
+p{
+    width:auto;
+    margin:0 0 $lhPx 0;
+    margin:0 0 $lh 0;
+    padding:0;
+    float:none;
+    clear:left;
+}
+b, strong{
+    font-weight:bold;
+}
+i, em{
+    font-weight:oblique;
+}
+blockquote{
+    border-top:1px solid #dddabc;
+    border-bottom:1px solid #dddabc;
+    width:90%;
+    margin:0 5% $lhPx 5%;
+    margin:0 5% $lh 5%;
+    float:left;
+    padding-top:10px;
+    padding-top:1rem;
+    background-color:$lightYellow; /*V Light Yellow*/
+    p{
+        margin:0 21px 21px 21px;
+        margin:0 2.1rem 2.1rem 2.1rem;
+    }
+}
+small, .photo-credit{
+    font-size:$lhPx/2;
+    font-size:$lh/2;
+    line-height:21px;
+    line-height:2.1rem;
+}
+a, a:link, a:visited{
+    text-decoration:none;
+    font-weight:bold;
+    color:$logoGreen; /*Logo Green*/
+}
+a:hover{
+    color:$logoYellow; /*Logo Yellow*/
+    text-decoration: underline;
+}
+a:active, a:focus{
+    color:$logoYellow; /*Logo Yellow*/
+}
+ul,ol{
+    float:left;
+    clear:left;
+    padding:0;
+    margin:0 0 $lhPx 0;
+    margin:0 0 $lh 0;
+    width:auto;
+}
+ul{
+    list-style:none;
+}
+ol{
+    list-style:decimal;
+    margin-left:5%;
+}
+li{
+    float:left;
+    clear:left;
+    width:auto;
+}
+img{
+    display:inline;
+    border:0;
+}
+video{
+    width:100%;
+}
+object{
+    width:100%;
+    overflow:hidden;
+}
+embed{
+    width:100%;
+    overflow:hidden;
+}
+iframe{
+    margin:0;
+    padding:0;
+    padding-bottom:$lhPx;
+    padding-bottom:$lh;
+    overflow:hidden;
+    width:100%;
+}
+.container{
+    /*margin:$lhPx auto;
+    margin:$lh auto;
+    width:calc(100% - 27px);
+    width:calc(100% - 2.7rem);*/
+    max-width:1200px;
+    margin:0 auto;
+    box-shadow: 0 0 50px #33360c;
+}
+.header{
+    width:100%;
+    float:left;
+    background-color:$white;
+    padding-top:$lhPx;
+    padding-top:$lh;
+    .logo-container{
+        float:left;
+        clear:left;
+        width:30%;
+        min-width:300px;
+        text-align:center;
+        padding:0 5% $lhPx;
+        padding:0 5% $lh;
+        img{
+            width:100%;
+            max-width:auto;
+        }
+    }
+}
+
+/*-----NAV-----*/
+nav{
+    width:100%;
+    background-color:$logoGreen;		/*GREEN*/
+    float:left;
+    clear:left;
+    padding:$lhPx*.5 5%;
+    padding:$lh*.5 5%;
+    ul{
+        width:100%;
+        margin:0 auto;
+        padding:0;
+    }
+    li{
+        float:none;
+        clear:none;
+        margin:0 1% 0 0;
+        padding:0 1% 0 0;
+        border-right:1px solid $white;
+        display:inline;
+    }
+    li:last-child{
+        border-right:0;
+        padding-right:0;
+        margin-right:0;
+        margin-bottom:0;
+        padding-bottom:0;
+    }
+    a, a:link, a:visited{
+        font-weight:normal;
+        color:#fff;
+        white-space:nowrap;
+    }
+    a:hover, a:active, a:focus{
+        color:$lightYellow; /*V Light Yellow*/
+    }
+}
+
+.content{
+    background-color:$white;
+    background-image:url("../images/bg2.gif");
+    background-repeat:repeat;
+    width:100%;
+    padding:$lhPx 5%;
+    padding:$lh 5%;
+    float:left;
+    clear:left;
+}
+
+/*------TOP------*/
+
+
+
+
+
+/*-----CONTACT------*/
+.contact-info-container{
+    width:100%;
+    margin:0;
+    padding:0 0 $lhPx;
+    padding:0 0 $lh;
+    float:left;
+    clear:left;
+    font-family:$helvetica;
+    font-size:$fontSizePx*.75;
+    font-size:$fontSize*.75;
+    line-height:$lh;
+    line-height:$lh;
+    ul, ol{
+        width:100%;
+        margin:0;
+    }
+    li{
+        
+    }
+    .contact{
+        float:left;
+        border-right:1px solid $logoGreen;	/*GREEN*/
+        min-height:$lhPx*6;
+        min-height:$lh*6;
+        margin-right:2%;
+        padding-right:2%;
+        .contact-title{
+            font-weight:bold;
+        }
+    }
+    .contact:last-child{
+        margin-right:0;
+    }
+    .address{
+        text-align:left;
+        width:32.33%;
+    }
+    .schedule{
+        width:39.33%;
+        text-align:center;
+        li{
+            width:100%;
+        }
+    }
+    .talk{
+        border:0;
+        text-align:right;
+        width:22.33%;
+        li{
+            width:auto;
+            float:right;
+            clear:right;
+        }
+        img{
+            padding-left:1rem;
+        }
+    }
+    .always-call{
+        color:red;
+        font-style:oblique;
+    }
+    .scratched{
+        text-decoration:line-through;
+        color:$gray;
+    }
+}
+
+
+/*-----CONTENT-----*/
+.section{
+    clear:left;
+    float:left;
+    border-top:1px solid $logoYellow;
+    border-bottom:$lhPx/2 solid $logoYellow;
+    margin-bottom:$lhPx;
+    margin-bottom:$lh;
+    padding-top:$lhPx;
+    padding-top:$lh;
+    width:100%;
+    .section-description{
+        width:50%;
+        padding-right:5%;
+        float:left;
+    }
+    img{
+        width:50%;
+        float:left;
+        margin-bottom:$lhPx;
+        margin-bottom:$lh;
+    }
+}
+.fifty-left, .fifty-right{
+    float:left;
+    width:48%;
+    img{
+        width:100%;
+        max-width:auto;
+    }
+}
+.fifty-left{
+    margin-right:4%;
+}
+.fifty-right{
+    clear:none;
+    li{
+        margin-bottom:$lhPx*.5;
+        margin-bottom:$lh*.5;
+    }
+}
+.accompanying-image{
+    float:right;
+    width:48%;
+    margin-left:2%;
+    img{
+        float:left;
+        width:100%;
+        margin-bottom:$lhPx*.5;
+        margin-bottom:$lh*.5;
+    }
+}
+.caption, .credit, .sponsor{
+    clear:left;
+    float:left;
+    font-size:$fontSizePx/2;
+    font-size:$fontSize/2;
+
+}
+.sponsor{
+    width:100%;
+    padding:$lhPx/2 2%;
+    padding:$lh/2 2%;
+    background-color:$lightYellow;
+    p{
+        margin:0;   
+    }
+}
+.testimonial{
+	
+}
+.avideo{
+    float:left;
+    clear:left;
+}
+.facebook-sdk{
+    width:100%;
+    float:left;
+    clear:left;
+    text-align: right;
+    padding:0;
+    margin:0;
+    padding-bottom:$lhPx;
+    padding-bottom:$lh;
+    overflow:hidden;
+}
+
+/*-----FOOTER-----*/
+.footer{
+    text-align:center;
+    background-color:$white;
+    background-image:url("../images/bg2.gif");
+    float:left;
+    clear:left;
+    width:100%;
+    font-family:$helvetica;
+    font-size:$fontSizePx/2;
+    font-size:$fontSize/2;
+    line-height:$lh/2;
+    line-height:$lh/2;
+    padding:0 5% $lhPx;
+    padding:0 5% $lh;
+    
+    a{
+        white-space:nowrap;
+    }
+    .sponsors{
+        text-align:center;
+        float:left;
+        clear:left;
+        width:100%;
+        ul{
+            padding:0;
+            margin:$lhPx 0;
+            margin:$lh 0;
+        }
+        li{
+            width:auto;
+            height:auto;
+            float:none;
+            clear:none;
+            display:inline;
+            padding:3.418635% 3.418635% 0 0;	/*   1/2   */
+        }
+    }
+    .bottom-nav{
+        background-color:transparent;
+        padding:0 0 $lhPx;
+        padding:0 0 $lh;
+        a, a:link, a:visited{
+            color:$logoGreen;
+        }
+        a:hover, a:active{
+            
+        }
+        ul{
+            
+        }
+        li{
+            border-right:1px solid $logoGreen;
+            margin-right:2%;
+            padding-right:2%;
+        }
+        li:first-child{
+            border-right:0;
+            margin-right:1%;
+            padding-right:1%;
+        }
+        li:last-child{
+            border-right:0;
+            margin-right:0;
+            padding-right:0;
+        }
+    }
+}
+.clearfix{
+    clear:left;	
+}
+/*-----TUMBLR------*/
+.tumblr_posts, .tumblr_post, .tumblr_text_post, .tumblr_photo_post, .tumblr_quote_post, .tumblr_link_post, .tumblr_chat_post, .tumblr_audio_post, .tumblr_video_post, .tumblr_title, .tumblr_body{
+    width:100%;
+    float:left;
+    clear:left;
+}
+.tumblr_posts{
+    padding:0;
+    margin:0;
+    list-style:none;
+}
+.tumblr_post{
+    border-bottom:1px dotted $gray;
+    margin-bottom:0;
+    padding:$lhPx 0;
+    padding:$lh 0;
+    img{
+        float:left;
+        max-width:27%;
+        margin:0 2% 0 0;
+    }
+    p{
+        width:auto;
+    }
+}
+.tumblr_post:last-child{
+    margin-bottom:$lhPx;
+    margin-bottom:$lh;
+}
+.tumblr_text_post{
+
+}
+.tumblr_photo_post{
+	
+}
+.tumblr_caption{
+    float:left;
+    width:70%;
+}
+.tumblr_quote_post{
+	
+}
+.tumblr_link_post{
+	
+}
+.tumblr_chat_post{
+	
+}
+.tumblr_audio_post{
+	
+}
+.tumblr_video_post{
+	
+}
+.tumblr_video{
+    max-width:27%;
+    height:auto;
+    float:right;
+}
+.tumblr_video div{
+    width:100% !important;
+}
+.OoyalaVideoPlayer{
+    width:100% !important;
+    float:right;
+}
+.tumblr_title{
+    font-weight:bold;
+}
+.tumblr_body{
+    width:100%;
+    float:left;
+    clear:left;
+}
+.sponsor img{
+    width:auto;
+    float:right;
+    padding:$lhPx/2 1%;
+    padding:$lh/2 1%;
+}
+/* ===========MEDIA QUERIES============== */
+@media screen and (max-width: 900px) {
+    .contact-info-container{
+        .contact{
+            width:100%;
+            padding-left:0;
+            padding-right:0;
+            border:0;
+        }
+        .address, .schedule{
+            min-height:147px;
+            min-height:14.7rem;
+            width:48%;
+            padding-bottom:$lhPx/2;
+            padding-bottom:$lh/2;
+            margin-bottom:$lhPx/2;
+            margin-bottom:$lh/2;
+	   }
+	   .address{
+            margin-right:4%;
+	   }
+        .schedule{
+            border-left:1px solid $logoGreen;
+            padding-left:3%;
+            text-align:right;
+            margin:0;
+	   }
+	   .talk{
+            clear:left;
+            min-height:0;
+            width:100%;
+            border-top:1px solid $logoGreen;
+            border-bottom:1px solid $logoGreen;
+            text-align:center;
+            padding:$lhPx/2 0;
+            padding:$lh/2 0;
+            ul{
+                width:100%;
+            }
+            li{
+                float:none;
+                clear:none;
+                display:inline;
+                margin-right: 1.5%;
+                padding-right: 1.5%;
+                border-right:1px solid $logoGreen;
+            }
+            li:last-child{
+                border:0;
+                margin-right:0;
+                padding-right:0;
+            }
+       }
+    }
+    .fifty-left, .fifty-right{
+        float:left;
+        clear:left;
+        width:100%;
+        padding-left:0;
+        padding-right:0;
+    }
+    /*-----TUMBLR-----*/
+    iframe{
+        float:left;
+    }
+    .tumblr_post img, .tumblr_photo_post img{
+        float:left;
+        clear:left;
+        padding-bottom:$lhPx;
+        padding-bottom:$lh;
+        width:50%;
+	}
+    .tumblr_caption{
+    }
+	.tumblr_video{
+        float:left;
+        width:100%;
+        overflow:hidden;
+    }
+    .sponsor{
+        img{
+            width:auto;
+            float:right;
+            padding-right:1%;
+        }
+    }
+	/*-----FACEBOOK-----*/
+    .facebook-sdk{
+        float:left;
+        text-align:left;
+        width:5% !important;
+        display:block;
+	}
+	#fb-root, .fb_reset{
+        display:none !important;
+	}
+	fb, #facebook, .fb_iframe_widget span, fb:like, .fb_ltr, like,  .fb_edge_widget_with_comment, .fb_iframe_widget{
+	   width:75% !important;
+	}
+}
+
+
+
+@media handheld, screen and (max-width: 500px) {
+	ul, li{
+	width:100%;
+	}
+	ol{
+	margin-left:0%;
+	padding-left:9%;
+	width:91%;
+	}
+	object, iframe, embed{
+	width:100%;	
+	}
+	.container{
+	margin:21px 0;
+	margin:2.1rem 0;
+	}
+	.logo img{
+	width:100%;
+	}
+    .logo .contest{
+        width:auto;
+    }
+	.contact{
+	width:100%;
+	padding:$lhPx/2 0;
+	padding:$lh/2 0;
+	border:0;
+	min-height:0;
+	text-align:left;
+	}
+	.contact ul{
+	padding-left:0;	
+	}
+	.address, .schedule{
+	border-bottom:1px solid $logoGreen;
+	padding-bottom:5.25px;
+	padding-bottom:.525rem;
+	margin-bottom:5.25px;
+	margin-bottom:.525rem;
+	}
+	.talk{
+	clear:left;
+	min-height:0;
+	width:100%;
+	border:0;
+	}
+	.talk li{
+	float:left;
+	clear:left;
+	border:0;
+	}
+	.talk li:last-child{
+	border:0;
+	}
+	nav{
+	width:100%;
+	padding:5%;
+	}
+	nav ul{
+	width:100%;
+	text-align:left;
+	}
+	nav li{
+	float:left;
+	clear:left;
+	border-right:0;
+	border-bottom:1px solid white;
+	width:100%;
+	margin:0;
+	padding:0;
+	}
+	.info img, .accompanying-image{
+	width:100%;
+	float:left;
+	margin-bottom:21px;
+	margin-bottom:2.1rem;
+	margin-left:0;
+	}
+	.sponsors li{
+	padding:0;
+	margin:$lhPx/2;
+	margin:$lh/2;	
+	}
+	/*-----FACEBOOK-----*/
+
+	/*-----TUMBLR-----*/
+	.tumblr_post img, .tumblr_photo_post img{
+	width:100%;
+	}
+	.tumblr_video{
+	width:100%;
+	float:right;
+	}
+    .sponsor img{
+        width:auto;
+        float:right;
+        padding-right:1%;
+    }
+}
