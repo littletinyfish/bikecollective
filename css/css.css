@@ -1,1 +1,911 @@
-*{box-sizing:border-box}html{font-size:62.5%}body{width:100%;margin:0;padding:0;font-size:18px;font-size:1.8rem;line-height:27px;line-height:2.7rem;color:#121212;font-family:georgia,palatino,"palatino linotype",serif;background-color:#535629;background-attachment:fixed}h1,h2,h3,h4,h5,h6,h7{width:auto;float:none;clear:left;margin:0 0 13.5px;margin:0 0 1.35rem;padding:0 0 13.5px;padding:0 0 1.35rem}h1{font-size:31.5px;font-size:3.15rem;line-height:47.25px;line-height:4.725rem}h2{font-size:22.5px;font-size:2.25rem;line-height:33.75px;line-height:3.375rem}h3{font-size:18px;font-size:1.8rem;line-height:27px;line-height:2.7rem}h4,h5{font-size:13.5px;font-size:1.35rem;line-height:20.25px;line-height:2.025rem}h6{font-size:9px;font-size:0.9rem;line-height:13.5px;line-height:1.35rem}p{width:auto;margin:0 0 27px 0;margin:0 0 2.7rem 0;padding:0;float:none;clear:left}b,strong{font-weight:bold}i,em{font-weight:oblique}blockquote{border-top:1px solid #dddabc;border-bottom:1px solid #dddabc;width:90%;margin:0 5% 27px 5%;margin:0 5% 2.7rem 5%;float:left;padding-top:10px;padding-top:1rem;background-color:#f1eed7}blockquote p{margin:0 21px 21px 21px;margin:0 2.1rem 2.1rem 2.1rem}small,.photo-credit{font-size:13.5px;font-size:1.35rem;line-height:21px;line-height:2.1rem}a,a:link,a:visited{text-decoration:none;font-weight:bold;color:#466e3c}a:hover{color:#9c8c3d;text-decoration:underline}a:active,a:focus{color:#9c8c3d}ul,ol{float:left;clear:left;padding:0;margin:0 0 27px 0;margin:0 0 2.7rem 0;width:auto}ul{list-style:none}ol{list-style:decimal;margin-left:5%}li{float:left;clear:left;width:auto}img{display:inline;border:0}video{width:100%}object{width:100%;overflow:hidden}embed{width:100%;overflow:hidden}iframe{margin:0;padding:0;padding-bottom:27px;padding-bottom:2.7rem;overflow:hidden;width:100%}.container{max-width:1200px;margin:0 auto;box-shadow:0 0 50px #33360c}.header{width:100%;float:left;background-color:#fff;padding-top:27px;padding-top:2.7rem}.header .logo-container{float:left;clear:left;width:30%;min-width:300px;text-align:center;padding:0 5% 27px;padding:0 5% 2.7rem}.header .logo-container img{width:100%;max-width:auto}nav{width:100%;background-color:#466e3c;float:left;clear:left;padding:13.5px 5%;padding:1.35rem 5%;margin-bottom:27px;margin-bottom:2.7rem}nav ul{width:100%;margin:0 auto;padding:0}nav li{float:none;clear:none;margin:0 1% 0 0;padding:0 1% 0 0;border-right:1px solid #fff;display:inline}nav li:last-child{border-right:0;padding-right:0;margin-right:0;margin-bottom:0;padding-bottom:0}nav a,nav a:link,nav a:visited{font-weight:normal;color:#fff;white-space:nowrap}nav a:hover,nav a:active,nav a:focus{color:#f1eed7}.content{background-color:#fff;background-image:url("../images/bg2.gif");background-repeat:repeat;width:100%;padding:27px 5%;padding:2.7rem 5%;float:left;clear:left}.contact-info-container{width:100%;margin:0;padding:0 0 27px;padding:0 0 2.7rem;float:left;clear:left;font-family:helvetica,arial,tahoma,sans-serif;font-size:13.5px;font-size:1.35rem;line-height:2.7rem;line-height:2.7rem}.contact-info-container ul,.contact-info-container ol{width:100%;margin:0}.contact-info-container .contact{float:left;border-right:1px solid #466e3c;min-height:162px;min-height:16.2rem;margin-right:2%;padding-right:2%}.contact-info-container .contact .contact-title{font-weight:bold}.contact-info-container .contact:last-child{margin-right:0}.contact-info-container .address{text-align:left;width:27.33%;margin-left:5%}.contact-info-container .schedule{width:39.33%;text-align:center}.contact-info-container .schedule li{width:100%}.contact-info-container .talk{border:0;text-align:right;width:22.33%}.contact-info-container .talk li{width:auto;float:right;clear:right}.contact-info-container .talk img{padding-left:1rem}.contact-info-container .always-call{color:red;font-style:oblique}.contact-info-container .scratched{text-decoration:line-through;color:#d3d3d3}.section{clear:left;float:left;border-top:1px solid #9c8c3d;border-bottom:13.5px solid #9c8c3d;margin-bottom:27px;margin-bottom:2.7rem;padding-top:27px;padding-top:2.7rem;width:100%}.section .section-description{width:50%;padding-right:5%;float:left}.section img{width:50%;float:left;margin-bottom:27px;margin-bottom:2.7rem}.fifty-left,.fifty-right{float:left;width:48%}.fifty-left img,.fifty-right img{width:100%;max-width:auto}.fifty-left{margin-right:4%}.fifty-right{clear:none}.fifty-right li{margin-bottom:13.5px;margin-bottom:1.35rem}.accompanying-image{float:right;width:48%;margin-left:2%}.accompanying-image img{float:left;width:100%;margin-bottom:13.5px;margin-bottom:1.35rem}.caption,.credit,.sponsor{clear:left;float:left;font-size:9px;font-size:0.9rem}.sponsor{width:100%;padding:13.5px 2%;padding:1.35rem 2%;background-color:#f1eed7}.sponsor p{margin:0}.avideo{float:left;clear:left}.facebook-sdk{width:100%;float:left;clear:left;text-align:right;padding:0;margin:0;padding-bottom:27px;padding-bottom:2.7rem;overflow:hidden}.footer{text-align:center;background-color:#fff;background-image:url("../images/bg2.gif");float:left;clear:left;width:100%;font-family:helvetica,arial,tahoma,sans-serif;font-size:9px;font-size:0.9rem;line-height:1.35rem;line-height:1.35rem;padding:0 5% 27px;padding:0 5% 2.7rem}.footer a{white-space:nowrap}.footer .sponsors{text-align:center;float:left;clear:left;width:100%}.footer .sponsors ul{padding:0;margin:27px 0;margin:2.7rem 0}.footer .sponsors li{width:auto;height:auto;float:none;clear:none;display:inline;padding:3.418635% 3.418635% 0 0}.footer .bottom-nav{background-color:transparent;padding:0 0 27px;padding:0 0 2.7rem}.footer .bottom-nav a,.footer .bottom-nav a:link,.footer .bottom-nav a:visited{color:#466e3c}.footer .bottom-nav li{border-right:1px solid #466e3c;margin-right:2%;padding-right:2%}.footer .bottom-nav li:first-child{border-right:0;margin-right:1%;padding-right:1%}.footer .bottom-nav li:last-child{border-right:0;margin-right:0;padding-right:0}.clearfix{clear:left}.tumblr_posts,.tumblr_post,.tumblr_text_post,.tumblr_photo_post,.tumblr_quote_post,.tumblr_link_post,.tumblr_chat_post,.tumblr_audio_post,.tumblr_video_post,.tumblr_title,.tumblr_body{width:100%;float:left;clear:left}.tumblr_posts{padding:0;margin:0;list-style:none}.tumblr_post{border-bottom:1px dotted #d3d3d3;margin-bottom:0;padding:27px 0;padding:2.7rem 0}.tumblr_post img{float:left;max-width:27%;margin:0 2% 0 0}.tumblr_post p{width:auto}.tumblr_post:last-child{margin-bottom:27px;margin-bottom:2.7rem}.tumblr_caption{float:left;width:70%}.tumblr_video{max-width:27%;height:auto;float:right}.tumblr_video div{width:100% !important}.OoyalaVideoPlayer{width:100% !important;float:right}.tumblr_title{font-weight:bold}.tumblr_body{width:100%;float:left;clear:left}.sponsor img{width:auto;float:right;padding:13.5px 1%;padding:1.35rem 1%}@media screen and (max-width: 900px){.contact-info-container .contact{width:100%;padding-left:0;padding-right:0;border:0}.contact-info-container .address,.contact-info-container .schedule{min-height:147px;min-height:14.7rem;width:44.5%;padding-bottom:13.5px;padding-bottom:1.35rem;margin-bottom:13.5px;margin-bottom:1.35rem}.contact-info-container .address{margin-right:2.5%}.contact-info-container .schedule{border-left:1px solid #466e3c;padding-left:2.5%;text-align:right}.contact-info-container .talk{clear:left;min-height:0;width:100%;border-top:1px solid #466e3c;border-bottom:1px solid #466e3c;text-align:center;padding:13.5px 0;padding:1.35rem 0}.contact-info-container .talk ul{width:100%}.contact-info-container .talk li{float:none;clear:none;display:inline;margin-right:1.5%;padding-right:1.5%;border-right:1px solid #466e3c}.contact-info-container .talk li:last-child{border:0;margin-right:0;padding-right:0}.fifty-left,.fifty-right{float:left;clear:left;width:100%;padding-left:0;padding-right:0}iframe{float:left}.tumblr_post img,.tumblr_photo_post img{float:left;clear:left;padding-bottom:27px;padding-bottom:2.7rem;width:50%}.tumblr_video{float:left;width:100%;overflow:hidden}.sponsor img{width:auto;float:right;padding-right:1%}.facebook-sdk{float:left;text-align:left;width:5% !important;display:block}#fb-root,.fb_reset{display:none !important}fb,#facebook,.fb_iframe_widget span,fb:like,.fb_ltr,like,.fb_edge_widget_with_comment,.fb_iframe_widget{width:75% !important}}@media handheld, screen and (max-width: 500px){ul,li{width:100%}ol{margin-left:0%;padding-left:9%;width:91%}object,iframe,embed{width:100%}.container{margin:27px 0;margin:2.7rem 0}.logo img{width:100%}.contact-info-container{padding:0 5%}.contact-info-container .contact{width:100%;margin:0;padding:13.5px 0;padding:1.35rem 0;border:0;min-height:0;text-align:left}.contact-info-container .contact ul{padding-left:0}.contact-info-container .address,.contact-info-container .schedule{border-bottom:1px solid #466e3c;padding-bottom:5.25px;padding-bottom:.525rem;margin-bottom:5.25px;margin-bottom:.525rem}.contact-info-container .talk{clear:left;min-height:0;width:100%;border:0}.contact-info-container .talk li{float:left;clear:left;border:0}.contact-info-container .talk li:last-child{border:0}nav{width:100%;padding:5%}nav ul{width:100%;text-align:left}nav li{float:left;clear:left;border-right:0;border-bottom:1px solid white;width:100%;margin:0;padding:0}.info img,.accompanying-image{width:100%;float:left;margin-bottom:27px;margin-bottom:2.7rem;margin-left:0}.footer .sponsors li{padding:0;margin:13.5px;margin:1.35rem}.footer .bottom-nav{font-size:18px;font-size:1.8rem;line-height:27px;line-height:2.7rem}.footer .bottom-nav li{border:0}.tumblr_post img,.tumblr_photo_post img{width:100%}.tumblr_video{width:100%;float:right}.sponsor img{width:auto;float:right;padding-right:1%}}
+/*BASE\
+font:2.1rem, 21px, 6.8372%; 
+line-height:$lh, $lhPx, 7%;
+*/
+/* line 22, css.scss */
+* {
+  box-sizing: border-box;
+}
+
+/* line 25, css.scss */
+html {
+  font-size: 62.5%;
+}
+
+/* line 28, css.scss */
+body {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  font-size: 18px;
+  font-size: 1.8rem;
+  line-height: 27px;
+  line-height: 2.7rem;
+  color: #121212;
+  font-family: georgia, palatino, "palatino linotype", serif;
+  background-color: #535629;
+  /*Olive*/
+  background-attachment: fixed;
+}
+
+/* line 51, css.scss */
+h1, h2, h3, h4, h5, h6, h7 {
+  width: auto;
+  float: none;
+  clear: left;
+  margin: 0 0 13.5px;
+  margin: 0 0 1.35rem;
+  padding: 0 0 13.5px;
+  padding: 0 0 1.35rem;
+}
+
+/* line 60, css.scss */
+h1 {
+  font-size: 31.5px;
+  font-size: 3.15rem;
+  line-height: 47.25px;
+  line-height: 4.725rem;
+}
+
+/* line 67, css.scss */
+h2 {
+  font-size: 22.5px;
+  font-size: 2.25rem;
+  line-height: 33.75px;
+  line-height: 3.375rem;
+}
+
+/* line 73, css.scss */
+h3 {
+  font-size: 18px;
+  font-size: 1.8rem;
+  line-height: 27px;
+  line-height: 2.7rem;
+}
+
+/* line 79, css.scss */
+h4, h5 {
+  font-size: 13.5px;
+  font-size: 1.35rem;
+  line-height: 20.25px;
+  line-height: 2.025rem;
+}
+
+/* line 85, css.scss */
+h6 {
+  font-size: 9px;
+  font-size: 0.9rem;
+  line-height: 13.5px;
+  line-height: 1.35rem;
+}
+
+/* line 91, css.scss */
+p {
+  width: auto;
+  margin: 0 0 27px 0;
+  margin: 0 0 2.7rem 0;
+  padding: 0;
+  float: none;
+  clear: left;
+}
+
+/* line 99, css.scss */
+b, strong {
+  font-weight: bold;
+}
+
+/* line 102, css.scss */
+i, em {
+  font-weight: oblique;
+}
+
+/* line 105, css.scss */
+blockquote {
+  border-top: 1px solid #dddabc;
+  border-bottom: 1px solid #dddabc;
+  width: 90%;
+  margin: 0 5% 27px 5%;
+  margin: 0 5% 2.7rem 5%;
+  float: left;
+  padding-top: 10px;
+  padding-top: 1rem;
+  background-color: #f1eed7;
+  /*V Light Yellow*/
+}
+/* line 115, css.scss */
+blockquote p {
+  margin: 0 21px 21px 21px;
+  margin: 0 2.1rem 2.1rem 2.1rem;
+}
+
+/* line 120, css.scss */
+small, .photo-credit {
+  font-size: 13.5px;
+  font-size: 1.35rem;
+  line-height: 21px;
+  line-height: 2.1rem;
+}
+
+/* line 126, css.scss */
+a, a:link, a:visited {
+  text-decoration: none;
+  font-weight: bold;
+  color: #466e3c;
+  /*Logo Green*/
+}
+
+/* line 131, css.scss */
+a:hover {
+  color: #9c8c3d;
+  /*Logo Yellow*/
+  text-decoration: underline;
+}
+
+/* line 135, css.scss */
+a:active, a:focus {
+  color: #9c8c3d;
+  /*Logo Yellow*/
+}
+
+/* line 138, css.scss */
+ul, ol {
+  float: left;
+  clear: left;
+  padding: 0;
+  margin: 0 0 27px 0;
+  margin: 0 0 2.7rem 0;
+  width: auto;
+}
+
+/* line 146, css.scss */
+ul {
+  list-style: none;
+}
+
+/* line 149, css.scss */
+ol {
+  list-style: decimal;
+  margin-left: 5%;
+}
+
+/* line 153, css.scss */
+li {
+  float: left;
+  clear: left;
+  width: auto;
+}
+
+/* line 158, css.scss */
+img {
+  display: inline;
+  border: 0;
+}
+
+/* line 162, css.scss */
+video {
+  width: 100%;
+}
+
+/* line 165, css.scss */
+object {
+  width: 100%;
+  overflow: hidden;
+}
+
+/* line 169, css.scss */
+embed {
+  width: 100%;
+  overflow: hidden;
+}
+
+/* line 173, css.scss */
+iframe {
+  margin: 0;
+  padding: 0;
+  padding-bottom: 27px;
+  padding-bottom: 2.7rem;
+  overflow: hidden;
+  width: 100%;
+}
+
+/* line 181, css.scss */
+.container {
+  /*margin:$lhPx auto;
+  margin:$lh auto;
+  width:calc(100% - 27px);
+  width:calc(100% - 2.7rem);*/
+  max-width: 1200px;
+  margin: 0 auto;
+  box-shadow: 0 0 50px #33360c;
+}
+
+/* line 190, css.scss */
+.header {
+  width: 100%;
+  float: left;
+  background-color: white;
+  padding-top: 27px;
+  padding-top: 2.7rem;
+}
+/* line 196, css.scss */
+.header .logo-container {
+  float: left;
+  clear: left;
+  width: 30%;
+  min-width: 300px;
+  text-align: center;
+  padding: 0 5% 27px;
+  padding: 0 5% 2.7rem;
+}
+/* line 204, css.scss */
+.header .logo-container img {
+  width: 100%;
+  max-width: auto;
+}
+
+/*-----NAV-----*/
+/* line 212, css.scss */
+nav {
+  width: 100%;
+  background-color: #466e3c;
+  /*GREEN*/
+  float: left;
+  clear: left;
+  padding: 13.5px 5%;
+  padding: 1.35rem 5%;
+  margin-bottom: 27px;
+  margin-bottom: 2.7rem;
+}
+/* line 221, css.scss */
+nav ul {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0;
+}
+/* line 226, css.scss */
+nav li {
+  float: none;
+  clear: none;
+  margin: 0 1% 0 0;
+  padding: 0 1% 0 0;
+  border-right: 1px solid white;
+  display: inline;
+}
+/* line 234, css.scss */
+nav li:last-child {
+  border-right: 0;
+  padding-right: 0;
+  margin-right: 0;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+/* line 241, css.scss */
+nav a, nav a:link, nav a:visited {
+  font-weight: normal;
+  color: #fff;
+  white-space: nowrap;
+}
+/* line 246, css.scss */
+nav a:hover, nav a:active, nav a:focus {
+  color: #f1eed7;
+  /*V Light Yellow*/
+}
+
+/* line 251, css.scss */
+.content {
+  background-color: white;
+  background-image: url("../images/bg2.gif");
+  background-repeat: repeat;
+  width: 100%;
+  padding: 27px 5%;
+  padding: 2.7rem 5%;
+  float: left;
+  clear: left;
+}
+
+/*------TOP------*/
+/*-----CONTACT------*/
+/* line 269, css.scss */
+.contact-info-container {
+  width: 100%;
+  margin: 0;
+  padding: 0 0 27px;
+  padding: 0 0 2.7rem;
+  float: left;
+  clear: left;
+  font-family: helvetica, arial, tahoma, sans-serif;
+  font-size: 13.5px;
+  font-size: 1.35rem;
+  line-height: 2.7rem;
+  line-height: 2.7rem;
+}
+/* line 281, css.scss */
+.contact-info-container ul, .contact-info-container ol {
+  width: 100%;
+  margin: 0;
+}
+/* line 288, css.scss */
+.contact-info-container .contact {
+  float: left;
+  border-right: 1px solid #466e3c;
+  /*GREEN*/
+  min-height: 162px;
+  min-height: 16.2rem;
+  margin-right: 2%;
+  padding-right: 2%;
+}
+/* line 295, css.scss */
+.contact-info-container .contact .contact-title {
+  font-weight: bold;
+}
+/* line 299, css.scss */
+.contact-info-container .contact:last-child {
+  margin-right: 0;
+}
+/* line 302, css.scss */
+.contact-info-container .address {
+  text-align: left;
+  width: 27.33%;
+  margin-left: 5%;
+}
+/* line 307, css.scss */
+.contact-info-container .schedule {
+  width: 39.33%;
+  text-align: center;
+}
+/* line 310, css.scss */
+.contact-info-container .schedule li {
+  width: 100%;
+}
+/* line 314, css.scss */
+.contact-info-container .talk {
+  border: 0;
+  text-align: right;
+  width: 22.33%;
+}
+/* line 318, css.scss */
+.contact-info-container .talk li {
+  width: auto;
+  float: right;
+  clear: right;
+}
+/* line 323, css.scss */
+.contact-info-container .talk img {
+  padding-left: 1rem;
+}
+/* line 327, css.scss */
+.contact-info-container .always-call {
+  color: red;
+  font-style: oblique;
+}
+/* line 331, css.scss */
+.contact-info-container .scratched {
+  text-decoration: line-through;
+  color: lightgrey;
+}
+
+/*-----CONTENT-----*/
+/* line 339, css.scss */
+.section {
+  clear: left;
+  float: left;
+  border-top: 1px solid #9c8c3d;
+  border-bottom: 13.5px solid #9c8c3d;
+  margin-bottom: 27px;
+  margin-bottom: 2.7rem;
+  padding-top: 27px;
+  padding-top: 2.7rem;
+  width: 100%;
+}
+/* line 349, css.scss */
+.section .section-description {
+  width: 75%;
+  padding-right: 5%;
+  float: left;
+}
+/* line 354, css.scss */
+.section img {
+  width: 25%;
+  float: left;
+  margin-bottom: 27px;
+  margin-bottom: 2.7rem;
+}
+
+/* line 361, css.scss */
+.fifty-left, .fifty-right {
+  float: left;
+  width: 48%;
+}
+/* line 364, css.scss */
+.fifty-left img, .fifty-right img {
+  width: 100%;
+  max-width: auto;
+}
+
+/* line 369, css.scss */
+.fifty-left {
+  margin-right: 4%;
+}
+
+/* line 372, css.scss */
+.fifty-right {
+  clear: none;
+}
+/* line 374, css.scss */
+.fifty-right li {
+  margin-bottom: 13.5px;
+  margin-bottom: 1.35rem;
+}
+
+/* line 379, css.scss */
+.accompanying-image {
+  float: right;
+  width: 48%;
+  margin-left: 2%;
+}
+/* line 383, css.scss */
+.accompanying-image img {
+  float: left;
+  width: 100%;
+  margin-bottom: 13.5px;
+  margin-bottom: 1.35rem;
+}
+
+/* line 390, css.scss */
+.caption, .credit, .sponsor {
+  clear: left;
+  float: left;
+  font-size: 9px;
+  font-size: 0.9rem;
+}
+
+/* line 397, css.scss */
+.sponsor {
+  width: 100%;
+  padding: 13.5px 2%;
+  padding: 1.35rem 2%;
+  background-color: #f1eed7;
+}
+/* line 402, css.scss */
+.sponsor p {
+  margin: 0;
+}
+
+/* line 409, css.scss */
+.avideo {
+  float: left;
+  clear: left;
+}
+
+/* line 413, css.scss */
+.facebook-sdk {
+  width: 100%;
+  float: left;
+  clear: left;
+  text-align: right;
+  padding: 0;
+  margin: 0;
+  padding-bottom: 27px;
+  padding-bottom: 2.7rem;
+  overflow: hidden;
+}
+
+/*-----FOOTER-----*/
+/* line 426, css.scss */
+.footer {
+  text-align: center;
+  background-color: white;
+  background-image: url("../images/bg2.gif");
+  float: left;
+  clear: left;
+  width: 100%;
+  font-family: helvetica, arial, tahoma, sans-serif;
+  font-size: 9px;
+  font-size: 0.9rem;
+  line-height: 1.35rem;
+  line-height: 1.35rem;
+  padding: 0 5% 27px;
+  padding: 0 5% 2.7rem;
+}
+/* line 441, css.scss */
+.footer a {
+  white-space: nowrap;
+}
+/* line 444, css.scss */
+.footer .sponsors {
+  text-align: center;
+  float: left;
+  clear: left;
+  width: 100%;
+}
+/* line 449, css.scss */
+.footer .sponsors ul {
+  padding: 0;
+  margin: 27px 0;
+  margin: 2.7rem 0;
+}
+/* line 454, css.scss */
+.footer .sponsors li {
+  width: auto;
+  height: auto;
+  float: none;
+  clear: none;
+  display: inline;
+  padding: 3.418635% 3.418635% 0 0;
+  /*   1/2   */
+}
+/* line 463, css.scss */
+.footer .bottom-nav {
+  background-color: transparent;
+  padding: 0 0 27px;
+  padding: 0 0 2.7rem;
+}
+/* line 467, css.scss */
+.footer .bottom-nav a, .footer .bottom-nav a:link, .footer .bottom-nav a:visited {
+  color: #466e3c;
+}
+/* line 476, css.scss */
+.footer .bottom-nav li {
+  border-right: 1px solid #466e3c;
+  margin-right: 2%;
+  padding-right: 2%;
+}
+/* line 481, css.scss */
+.footer .bottom-nav li:first-child {
+  border-right: 0;
+  margin-right: 1%;
+  padding-right: 1%;
+}
+/* line 486, css.scss */
+.footer .bottom-nav li:last-child {
+  border-right: 0;
+  margin-right: 0;
+  padding-right: 0;
+}
+
+/* line 493, css.scss */
+.clearfix {
+  clear: left;
+}
+
+/*-----TUMBLR------*/
+/* line 497, css.scss */
+.tumblr_posts, .tumblr_post, .tumblr_text_post, .tumblr_photo_post, .tumblr_quote_post, .tumblr_link_post, .tumblr_chat_post, .tumblr_audio_post, .tumblr_video_post, .tumblr_title, .tumblr_body {
+  width: 100%;
+  float: left;
+  clear: left;
+}
+
+/* line 502, css.scss */
+.tumblr_posts {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+/* line 507, css.scss */
+.tumblr_post {
+  border-bottom: 1px dotted lightgrey;
+  margin-bottom: 0;
+  padding: 27px 0;
+  padding: 2.7rem 0;
+}
+/* line 512, css.scss */
+.tumblr_post img {
+  float: left;
+  max-width: 27%;
+  margin: 0 2% 0 0;
+}
+/* line 517, css.scss */
+.tumblr_post p {
+  width: auto;
+}
+
+/* line 521, css.scss */
+.tumblr_post:last-child {
+  margin-bottom: 27px;
+  margin-bottom: 2.7rem;
+}
+
+/* line 531, css.scss */
+.tumblr_caption {
+  float: left;
+  width: 70%;
+}
+
+/* line 550, css.scss */
+.tumblr_video {
+  max-width: 27%;
+  height: auto;
+  float: right;
+}
+
+/* line 555, css.scss */
+.tumblr_video div {
+  width: 100% !important;
+}
+
+/* line 558, css.scss */
+.OoyalaVideoPlayer {
+  width: 100% !important;
+  float: right;
+}
+
+/* line 562, css.scss */
+.tumblr_title {
+  font-weight: bold;
+}
+
+/* line 565, css.scss */
+.tumblr_body {
+  width: 100%;
+  float: left;
+  clear: left;
+}
+
+/* line 570, css.scss */
+.sponsor img {
+  width: auto;
+  float: right;
+  padding: 13.5px 1%;
+  padding: 1.35rem 1%;
+}
+
+/* ===========MEDIA QUERIES============== */
+@media screen and (max-width: 900px) {
+  /* line 579, css.scss */
+  .contact-info-container .contact {
+    width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+    border: 0;
+  }
+  /* line 585, css.scss */
+  .contact-info-container .address, .contact-info-container .schedule {
+    min-height: 147px;
+    min-height: 14.7rem;
+    width: 44.5%;
+    padding-bottom: 13.5px;
+    padding-bottom: 1.35rem;
+    margin-bottom: 13.5px;
+    margin-bottom: 1.35rem;
+  }
+  /* line 594, css.scss */
+  .contact-info-container .address {
+    margin-right: 2.5%;
+  }
+  /* line 597, css.scss */
+  .contact-info-container .schedule {
+    border-left: 1px solid #466e3c;
+    padding-left: 2.5%;
+    text-align: right;
+  }
+  /* line 602, css.scss */
+  .contact-info-container .talk {
+    clear: left;
+    min-height: 0;
+    width: 100%;
+    border-top: 1px solid #466e3c;
+    border-bottom: 1px solid #466e3c;
+    text-align: center;
+    padding: 13.5px 0;
+    padding: 1.35rem 0;
+  }
+  /* line 611, css.scss */
+  .contact-info-container .talk ul {
+    width: 100%;
+  }
+  /* line 614, css.scss */
+  .contact-info-container .talk li {
+    float: none;
+    clear: none;
+    display: inline;
+    margin-right: 1.5%;
+    padding-right: 1.5%;
+    border-right: 1px solid #466e3c;
+  }
+  /* line 622, css.scss */
+  .contact-info-container .talk li:last-child {
+    border: 0;
+    margin-right: 0;
+    padding-right: 0;
+  }
+
+  /* line 629, css.scss */
+  .fifty-left, .fifty-right {
+    float: left;
+    clear: left;
+    width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  /*-----TUMBLR-----*/
+  /* line 637, css.scss */
+  iframe {
+    float: left;
+  }
+
+  /* line 640, css.scss */
+  .tumblr_post img, .tumblr_photo_post img {
+    float: left;
+    clear: left;
+    padding-bottom: 27px;
+    padding-bottom: 2.7rem;
+    width: 50%;
+  }
+
+  /* line 649, css.scss */
+  .tumblr_video {
+    float: left;
+    width: 100%;
+    overflow: hidden;
+  }
+
+  /* line 655, css.scss */
+  .sponsor img {
+    width: auto;
+    float: right;
+    padding-right: 1%;
+  }
+
+  /*-----FACEBOOK-----*/
+  /* line 662, css.scss */
+  .facebook-sdk {
+    float: left;
+    text-align: left;
+    width: 5% !important;
+    display: block;
+  }
+
+  /* line 668, css.scss */
+  #fb-root, .fb_reset {
+    display: none !important;
+  }
+
+  /* line 671, css.scss */
+  fb, #facebook, .fb_iframe_widget span, fb:like, .fb_ltr, like, .fb_edge_widget_with_comment, .fb_iframe_widget {
+    width: 75% !important;
+  }
+}
+@media handheld, screen and (max-width: 500px) {
+  /* line 679, css.scss */
+  ul, li {
+    width: 100%;
+  }
+
+  /* line 682, css.scss */
+  ol {
+    margin-left: 0%;
+    padding-left: 9%;
+    width: 91%;
+  }
+
+  /* line 687, css.scss */
+  object, iframe, embed {
+    width: 100%;
+  }
+
+  /* line 690, css.scss */
+  .container {
+    margin: 27px 0;
+    margin: 2.7rem 0;
+  }
+
+  /* line 695, css.scss */
+  .logo img {
+    width: 100%;
+  }
+
+  /* line 699, css.scss */
+  .contact-info-container {
+    padding: 0 5%;
+  }
+  /* line 701, css.scss */
+  .contact-info-container .contact {
+    width: 100%;
+    margin: 0;
+    padding: 13.5px 0;
+    padding: 1.35rem 0;
+    border: 0;
+    min-height: 0;
+    text-align: left;
+  }
+  /* line 709, css.scss */
+  .contact-info-container .contact ul {
+    padding-left: 0;
+  }
+  /* line 713, css.scss */
+  .contact-info-container .address, .contact-info-container .schedule {
+    border-bottom: 1px solid #466e3c;
+    padding-bottom: 5.25px;
+    padding-bottom: .525rem;
+    margin-bottom: 5.25px;
+    margin-bottom: .525rem;
+  }
+  /* line 720, css.scss */
+  .contact-info-container .talk {
+    clear: left;
+    min-height: 0;
+    width: 100%;
+    border: 0;
+  }
+  /* line 725, css.scss */
+  .contact-info-container .talk li {
+    float: left;
+    clear: left;
+    border: 0;
+  }
+  /* line 730, css.scss */
+  .contact-info-container .talk li:last-child {
+    border: 0;
+  }
+
+  /* line 735, css.scss */
+  nav {
+    width: 100%;
+    padding: 5%;
+  }
+  /* line 738, css.scss */
+  nav ul {
+    width: 100%;
+    text-align: left;
+  }
+  /* line 742, css.scss */
+  nav li {
+    float: left;
+    clear: left;
+    border-right: 0;
+    border-bottom: 1px solid white;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+  /* line 752, css.scss */
+  .info img, .accompanying-image {
+    width: 100%;
+    float: left;
+    margin-bottom: 27px;
+    margin-bottom: 2.7rem;
+    margin-left: 0;
+  }
+
+  /* line 761, css.scss */
+  .footer .sponsors li {
+    padding: 0;
+    margin: 13.5px;
+    margin: 1.35rem;
+  }
+  /* line 767, css.scss */
+  .footer .bottom-nav {
+    font-size: 18px;
+    font-size: 1.8rem;
+    line-height: 27px;
+    line-height: 2.7rem;
+  }
+  /* line 772, css.scss */
+  .footer .bottom-nav li {
+    border: 0;
+  }
+
+  /*-----FACEBOOK-----*/
+  /*-----TUMBLR-----*/
+  /* line 780, css.scss */
+  .tumblr_post img, .tumblr_photo_post img {
+    width: 100%;
+  }
+
+  /* line 783, css.scss */
+  .tumblr_video {
+    width: 100%;
+    float: right;
+  }
+
+  /* line 787, css.scss */
+  .sponsor img {
+    width: auto;
+    float: right;
+    padding-right: 1%;
+  }
+}
